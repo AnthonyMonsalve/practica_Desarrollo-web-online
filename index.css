@@ -1,0 +1,363 @@
+﻿body{
+	margin: 0;
+}
+
+.top-header{
+	background-color: #000000;
+	color: #fff;
+	padding: 8px 0px 10px 5px;
+	font-family:  inherit;
+	font-size: 11.5px;
+}
+.top-header-container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+.top-header-right{
+	float: right;
+}
+.top-header-right a{
+	color: #fff;
+}
+.top-header-right a:hover{
+	color: #fff;
+}
+.cover-page{
+	background-image: url("https://davidrl.com/wp-content/uploads/2017/10/unnamed.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.cover-page figure{
+	margin: 0;
+}
+.grayscale{
+	background: rgba(0,0,0,.8);
+    backdrop-filter: grayscale(1) contrast(3) blur(1px);
+}
+.header{
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 20px; 
+}
+.logo, .menu-nav, .menu-nav li {
+	display: inline-block;
+}
+.logo{
+	padding-left: 10px;
+}
+.menu-nav{
+	float: right;
+}
+.menu-nav li{
+	margin: 0 12px;
+}
+.menu-nav li a{
+	color: #fff;
+}
+.menu-nav li a:hover{
+	color: #eeba2c;
+}
+.description{
+	max-width: 1200px;
+	margin: auto;
+	padding: 150px 0 250px 10px;
+}
+.description p{
+	color: #fff;
+}
+.cover-page-tittle{
+	font-size: 48px;
+	line-height: 48px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+}
+.cover-page-description{
+	font-size: 18px;
+	line-height: 35px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.div-btn-cursos{
+	color: #fff;
+	font-size: 17px;
+}
+.div-btn-cursos a{
+	color: #fff;
+	text-decoration: underline;
+}
+.div-btn-cursos a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.btn-cursos{
+	background-color: #ffbc31;
+	border: none;
+	color: #fff;
+	padding: 10px 30px; 
+	font-size: 17px;
+	margin-top: 16px;
+	border-radius: 30px;
+	transition: all .3s;
+}
+.btn-cursos:hover{
+	background-color: #fff;
+	color: #ffbc31;
+	transition: all .3s;
+}
+.carousel-clientes{
+	border-bottom: solid 1px #E2E2E2;
+	height: 60px;
+	display: flex; /* or inline-flex */
+	justify-content: space-between;
+	align-items: center;
+}
+.text-clientes{
+	width: 17%;
+	font-size: .81vw;
+	margin-left: 30px; 
+}
+.clientes-logo{
+	display: flex; /* or inline-flex */
+	justify-content: space-between;
+	width: 82%;
+}
+.clientes-logo span{
+	margin-right: 50px;
+}
+.sect{
+	margin-top: 80px;
+}
+.principal-title{
+	margin-top: 0;
+	margin-bottom: 10px; 
+	text-align: center;
+	color: #000;
+	font-size: 45px;
+}
+.description-principal-title{
+	margin: auto;
+	max-width: 650px;
+	color: #ffbc31;
+	font-size: 25px;
+	text-align: center;
+}
+.text-principal-title{
+	margin: auto;
+	max-width: 800px;
+	color: #000;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.services{
+  	display: flex; /* or inline-flex */
+  	justify-content: flex-start;
+	margin: 120px auto 0 auto;
+	max-width: 1200px;
+	padding: 5px;
+}
+.text-sec{
+	width: 60%;
+	margin-right: 45px;
+}
+.pre-title{
+	font-size: 16px;
+	font-weight: initial;
+	color: #ffbc31;
+	margin: 0;
+}
+.title{
+	font-size: 42px;
+	color: #000;
+	line-height: 45px;
+	font-weight: bold;
+	margin: 0 0 30px 3px; 
+}
+.text{
+	font-size: 17px;
+	color: #000;
+}
+.services-list{
+	font-size: 17px;
+	color: #000;
+	margin-bottom: 10px;
+	margin-left: 0;
+	list-style: none;
+}
+.services-list li{
+	margin: 10px 5px ;
+}
+.btn{
+	background-color: #ffbc31;
+	border: none;
+	color: #fff;
+	padding: 5px 20px; 
+	font-size: 15px;
+	margin-top: 16px;
+	border-radius: 30px;
+	transition: all .3s;
+}
+.btn:hover{
+	background-color: #FCC34C;
+	color: #fff;
+	transition: all .3s;
+}
+.services-images{
+	margin-right: 100px;
+}
+.Me{
+	display: flex; /* or inline-flex */
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.container-image-me{
+	margin: 0;
+	width: 50%;
+}
+.container-description-me{
+	background-color: #f7f7f7;
+	width: 50%;
+}
+.container-text-description-me{
+	margin: 100px 20px 100px 50px;
+	padding-right: 25px;
+}
+.wordpress{
+  	display: flex; /* or inline-flex */
+  	justify-content: center;
+	margin: 100px auto 0 auto;
+	max-width: 1200px;
+	padding: 5px;
+}
+.opiniones-clientes{
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;;
+
+}
+.opinion{
+	margin-left: 20px;
+	display: inline-block; 
+	min-width: 311px; 
+    width: 31%;
+	height: 100%;
+}
+.speech-bubble {
+  background: #F5F5F5; /* el color de fondo */
+  color: #FFF; /* el color del texto */
+  font-family: Arial, Sans-serif;
+  font-size: 12px;
+  padding: 20px 15px 10px 20px;
+  width: 100%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.speech-bubble:after {
+  border: solid 10px transparent;
+  border-top-color: #F5F5F5;  /* igual al color de fondo */
+  border-bottom: 0;
+  bottom: -20px;  /* igual al borde + el padding-bottom de la definición anterior */
+  content: "";
+  display: block;
+  height: 0;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 0;
+}
+.speech-bubble p{
+	font-size: 17px;
+	color: #000;
+	margin: 0;
+	text-align: justify;
+}
+.datos_clientes{
+	margin-top: 20px; 
+	display: inline-flex;
+	margin-bottom: 100px;
+}
+.imagen_personal{
+	overflow: hidden; 
+	border-radius: 50px;
+}
+.nombre_cliente{
+	margin: 0; 
+	line-height: 15px; 
+	margin-left: 20px;
+	margin-top: 20px; 
+	font-weight: bold; 
+	color: #ffbc31; 
+	font-size: 17px;
+}
+.sitio_cliente{
+	margin: 0; 
+	line-height: 15px; 
+	margin-left: 20px; 
+	color: #000;
+}
+.linkedin{
+	margin-top: 50px;
+	width: 100%;
+	margin: auto;
+}
+.footer-page{
+	background-image: url("https://davidrl.com/wp-content/uploads/2017/10/O0B6272-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-top: 100px;
+}
+.container-footer{
+	background-color: hsla(0, 0%, 0%, 0.28);
+}
+.footer{
+	max-width: 1200px;
+	margin: auto;
+}
+.logo-footer{
+	display: inline-block;
+	padding-left: 10px;
+    margin: 20px 0;
+}
+.menu-footer{
+	float: right;
+	margin-top: 11.771px;
+	display: inline-block;
+}
+.menu-footer li {
+	display: inline-block;
+}
+.menu-footer{
+	float: right;
+}
+.menu-footer li{
+	margin: 0 8px;
+}
+.menu-footer li a{
+	color: #fff;
+}
+.menu-footer li a:hover{
+	color: #eeba2c;
+}
+.contacto-footer{
+	margin-left: 5px;
+	color: #fff;
+	font-size: 17px;
+}
+.contacto-footer a{
+	color: #fff;
+}
+.contacto-footer a:hover{
+	color: #ffbc31; 
+}
+.description-footer{
+	max-width: 1200px;
+	margin: auto;
+	padding: 0;
+}
